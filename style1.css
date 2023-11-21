@@ -1,0 +1,196 @@
+body {
+    margin: 0px;
+    background-image: url("picc.jpg");
+    display: flex;
+    justify-content: center;
+    font-size: 90%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#ID-DIV {
+    width: 960px;
+    margin: 0px auto;
+    justify-content: center;
+    position: absolute;
+}
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-image: url("piccc.jpg");
+    
+    z-index: 2;
+}
+hgroup {
+    text-indent: -9999px;
+    width: 252px;
+    margin: 0px;
+    background-image: url("logo\ PF.png");
+    background-repeat: no-repeat;
+    background-position: 36px 43px;
+}
+nav {
+    width: 708px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-image: url("picccc.png");
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav ul {
+    display: inline-block;
+    position: absolute;
+    top: 45px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+nav ul li {
+    display: inline-flex;
+    font-size: 75%;
+    color: #ffffff;
+    padding-left: 2px;
+}
+nav ul a {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14.4px;
+    text-decoration: none;
+    color: #B5C1AD;
+}
+nav ul a:hover {
+    color: #ffffff;;
+}
+#main {
+    display: inline-block;
+    height: 567px;
+    background-image: url("piccccc.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.DIV2 p {
+    font-size: 90%;
+    color: #ffffff;
+    line-height: 1.4em;
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+.DIV2 a {
+    color: #B5C1AD;
+}
+#date {
+    margin-top: 9px;  
+    color: #B5C1AD; 
+    font-size: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.DIV1 {
+    width: 720px;
+    height: 535px;
+    position: relative;
+    top: 0px;
+    background-image: url("triangle.png");
+    background-repeat: no-repeat;
+    background-position: 123px 142px;
+    float: left;
+}
+.DIV1 h1 {
+    margin: 0px;
+}
+.DIV1 h1 a:hover {
+    color: #ffffff;
+}
+.DIV1 a {
+    position: relative;
+    top: 140px;
+    left: 500px;
+    color: #b5c1ad;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    text-decoration: none;
+    margin-top: 140px;
+}
+.DIV2 {
+    width: 220px;
+    float: right;
+    margin-top: 202px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.DIV2 a {
+    text-decoration: none;
+}
+.DIV2 a:hover {
+    color: #ffffff;
+}
+.more_articles {
+    display: inline-block;
+    width: 980px;
+    border-top: 1px solid #ffffff;
+    padding-top: 26px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.more_articles h2 a{
+    margin-top: 0px;
+    padding-left: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    color: #B5C1AD;
+    text-decoration: none;
+}
+.more_articles a:hover {
+    color: #ffffff;
+}
+.DIV3 {
+    width: 220px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.DIV3 img {
+    margin-bottom: 1px;
+}
+.DIV3 p {
+    margin-top: 17px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #807C72;
+    font-size: 80%;
+    color: #B5C1AD;
+}
+.DIV3 p:last-child {
+    border-bottom: none;
+}
+.DIV3 a {
+    color: #B5C1AD;
+    text-decoration: none;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 980px;
+    left: 0px;
+    height: 44px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 0px auto;
+    padding: 0px auto;
+}
+footer a {
+    color: #807c72;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 75%;
+    text-decoration: none;
+}
+footer p {
+    float: right;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px 3px;
+}
